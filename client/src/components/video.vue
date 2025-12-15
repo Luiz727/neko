@@ -193,7 +193,7 @@
           bottom: 0;
           width: 100%;
           height: 100%;
-          cursor: default;
+          cursor: none; /* Esconde cursor local, mostra apenas o remoto */
           outline: 0;
           border: 0;
           color: transparent;
