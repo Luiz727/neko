@@ -5,7 +5,7 @@ import { get } from '~/utils/localstorage'
 
 Vue.use(VueI18n)
 
-const fallbackLocale = 'en'
+const fallbackLocale = 'pt'
 
 function detectBrowserLanguage(): string {
   const browserLang = navigator.language.toLowerCase()
