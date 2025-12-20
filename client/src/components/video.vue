@@ -726,7 +726,7 @@
 
         window.setTimeout(() => {
           this.wheelThrottle = false
-        }, 100)
+        }, 16) // ~60fps para scroll mais fluido
       }
     }
 
