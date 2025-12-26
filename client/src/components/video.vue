@@ -145,6 +145,7 @@
         position: relative;
         width: 100%;
         max-width: calc(16 / 9 * 100vh);
+        cursor: none; /* Esconde cursor local em todo o container */
 
         video {
           position: absolute;
@@ -154,6 +155,7 @@
           height: 100%;
           display: flex;
           background: #000;
+          cursor: none; /* Esconde cursor local no vídeo */
 
           &::-webkit-media-controls {
             display: none !important;
