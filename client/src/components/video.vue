@@ -145,7 +145,6 @@
         position: relative;
         width: 100%;
         max-width: calc(16 / 9 * 100vh);
-        cursor: none; /* Esconde cursor local em todo o container */
 
         video {
           position: absolute;
@@ -155,7 +154,6 @@
           height: 100%;
           display: flex;
           background: #000;
-          cursor: none; /* Esconde cursor local no vídeo */
 
           &::-webkit-media-controls {
             display: none !important;
@@ -195,7 +193,7 @@
           bottom: 0;
           width: 100%;
           height: 100%;
-          cursor: none; /* Esconde cursor local, mostra apenas o remoto */
+          cursor: default; /* Mostra cursor local (cursor remoto desativado para evitar delay) */
           outline: 0;
           border: 0;
           color: transparent;
